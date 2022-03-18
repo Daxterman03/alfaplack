@@ -12,15 +12,15 @@ export const Footer = () => {
             <section className="info">
                 <div className="contactos">
                     <h3>Contacto</h3>
-                    <p>Celular <a href="#">3462-696061</a></p>
-                    <p>Mail: <a href="mailto:marcosdmansilla@hotmail.com" target="_blank">marcosdmansilla@hotmail.com</a></p>
+                    <p>Celular: <a href="#">3462-696061</a></p>
+                    <p>Mail: <a href="mailto:marcosdmansilla@hotmail.com" target="_blank" rel="noreferrer">marcosdmansilla@hotmail.com</a></p>
                 </div>
                 <div className="redes">
                     <h3>Redes</h3>
                     <div className="social-icons">
-                        <a href="#" className="fab fa-facebook-f"></a>
-                        <a href="#" className="fab fa-instagram"></a>
-                        <a href="#" className="fab fa-whatsapp"></a>
+                        <a href="https://www.facebook.com/ALFA-PLACK-106803651236040" target="_blank" className="fab fa-facebook-f"></a>
+                        <a href="https://www.instagram.com/alfaplack.elortondo" target="_blank" className="fab fa-instagram"></a>
+                        <a href="https://wa.me/543462696061?text=¡Estoy+interesado!" target="_blank" className="fab fa-whatsapp"></a>
                     </div>
                 </div>
             </section>

@@ -1,5 +1,5 @@
 .footer {
-  min-height: 50vh;
+  height: 30rem;
   padding: 0 10rem 3rem;
   display: flex;
   background-color: #000000c2;
@@ -12,11 +12,10 @@
   align-items: center;
 }
 #logoFoot {
-  width: 50%;
-  margin: 1rem;
+  width: 18rem; /*288px*/
 }
 #copyright {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: white;
 }
 .info {
@@ -26,16 +25,17 @@
   justify-content: center;
 }
 .info h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
 }
 .contactos p {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 100;
 }
 .contactos a {
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
 }
 .social-icons {
   display: flex;
@@ -96,7 +96,7 @@
   justify-content: center;
 }
 .ubicacion h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
 }
 .ubicacion iframe {
