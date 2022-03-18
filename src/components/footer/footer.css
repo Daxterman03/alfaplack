@@ -1,19 +1,18 @@
 .footer {
   min-height: 50vh;
-  padding: 0 10rem;
+  padding: 0 10rem 3rem;
   display: flex;
   background-color: #000000c2;
+  justify-content: space-around;
 }
 .copyright {
-  width: 33%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 #logoFoot {
-  width: 22.4rem;
-  height: 8.25rem;
+  width: 50%;
   margin: 1rem;
 }
 #copyright {
@@ -21,7 +20,7 @@
   color: white;
 }
 .info {
-  width: 33%;
+  margin: 0 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,12 +37,19 @@
   color: white;
   font-size: 1.3rem;
 }
+.social-icons {
+  display: flex;
+}
 .fab {
-  width: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
   padding: 2rem;
-  margin: 1rem;
+  margin: 0.5rem;
   color: white;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   border-radius: 50%;
 }
@@ -85,7 +91,6 @@
   background-color: #25d366;
 }
 .ubicacion {
-  width: 33%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -95,8 +100,8 @@
   color: white;
 }
 .ubicacion iframe {
-  width: 50rem;
+  width: 30rem;
   max-width: 100%;
-  height: 50rem;
+  height: 30rem;
   max-height: 80%;
 }
